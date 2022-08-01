@@ -20,3 +20,9 @@ body {
 .nav-link {
   color: black !important;
 }
+
+.grid-container {
+  display : grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
+}
