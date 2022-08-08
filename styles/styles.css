@@ -35,3 +35,25 @@ footer {
   grid-template-columns: repeat(2, 1fr);
   column-gap: 10px;
 }
+
+.front-greeting {
+  display : flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.front-intro {
+  text-align: center;
+  font-size: 5rem;
+  color: #2980B9;
+}
+
+.front-body {
+  text-align: center;
+  width: 75%
+}
+
+.front-paragraph {
+  font-size: 2rem;
+  color: 	#2980B9;
+}
+
